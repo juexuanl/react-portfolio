@@ -1,0 +1,29 @@
+[
+    {
+      "role": "Software Engineer",
+      "organisation": "Intuit",
+      "startDate": "Jun, 2022",
+      "endDate": "Apr, 2024",
+      "experiences": ["Worked on Data Exchange Platform and RESTful APIs", "Writing unit and integration tests.", "Automate service deployment."],
+      "imageSrc": "history/intuit.png"
+    },
+    {
+      "role": "Senior Software Engineer",
+      "organisation": "Cheetah Software (Mercurygate)",
+      "startDate": "Jan, 2017",
+      "endDate": "Jun, 2022",
+      "experiences": ["Worked Routing solution optimization", "Workflow integration"],
+      "imageSrc": "history/cheetah.png"
+    },
+    {
+      "role": "Data Analyst",
+      "organisation": "AIDS Healthcare Foundation",
+      "startDate": "Oct, 2014",
+      "endDate": "Dec, 2016",
+      "experiences": [
+        "Risk Score analysis and prediction",
+        "Create business intelligent reports"
+      ],
+      "imageSrc": "history/ahf.png"
+    }
+  ]

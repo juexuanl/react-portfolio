@@ -1,0 +1,17 @@
+[
+    {
+        "title": "Email",
+        "link": "juexuanl@gmail.com",
+        "display": "juexuanl@gmail.com",
+        "imageSrc": "contact/emailIcon.png",
+        "imageDesc": "Email Icon"
+    },
+    {
+        "title": "LinkedIn",
+        "link":"https://www.linkedin.com/in/juexuanl/",
+        "display": "linkedin.com/in/juexuanl",
+        "imageSrc": "contact/linkedinIcon.png",
+        "imageDesc": "LinkedIn Incon"
+    }
+
+]

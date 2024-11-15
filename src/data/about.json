@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Backend Developer",
+        "description": "I have broader experience in developing backend services and RESTful APIs. Good cross-team communicator, complex problem-solver with proven troubleshooting and debugging capabilities for resolving complex technical issues.",
+        "imageSrc": "about/serverIcon.png",
+        "imageDesc": "Server icon"
+    },
+    {
+        "title": "Frontend Developer",
+        "description": "Self-taught frontend development using React and JavaScript with plans to learn TypeScript as well. Always open and enthusiastic about learning new skills.",
+        "imageSrc": "about/uiIcon.png",
+        "imageDesc": "UI icon"
+    },
+    {
+        "title": "Data Analyst",
+        "description": "I have extensive experience on both relational databases and NoSQL databasae.",
+        "imageSrc": "about/cursorIcon.png",
+        "imageDesc": "Cursor icon"
+    }
+]

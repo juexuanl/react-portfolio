@@ -1,0 +1,30 @@
+[
+    {
+      "title": "Databridge",
+      "imageSrc": "projects/databridge.png",
+      "description": "This is a data exchange platform to support bi-directional data exchange among multi-cloud services in security manner.",
+      "skills": ["Java", "Apache Flink", "Jenkins", "Kafka"],
+      "details": ["Support an average data throughput of 1000+ tps, with peak loads of 5000+ tps.", "Highly configurable to support different usecases.", "24/7 monitoring with real-time alerts and KPI tracking."]
+    },
+    {
+      "title": "Integration Activity Service",
+      "imageSrc": "projects/ias.png",
+      "description": "This is a RESTful API services to support data integration.",
+      "skills": ["Kotlin", "Springboot", "Jenkins", "DynamoDB", "Kafka"],
+      "details": ["RESTful web service to standardize data Integration.", "Using DynamoDB to handle high I/O throughput and large-scale capacity.", "24/7 monitoring with real-time alerts and KPI tracking."]
+    },
+    {
+      "title": "Banking 3.0",
+      "imageSrc": "projects/bank.png",
+      "description": "This project redesigns the data flow in the banking domain, transitioning from microservices to a data pipeline architecture.",
+      "skills": ["Java", "Springboot", "Jenkins", "Kubernetes", "Kafka"],
+      "details": ["Break down the old system's functionality into distinct pipelines and processors.", "Generate processors pools to adapt different use cases.", "24/7 monitoring with real-time alerts and KPI tracking."]
+    },
+    {
+      "title": "Mobile Media Processor",
+      "imageSrc": "projects/mobile.png",
+      "description": "This backend service stores mobile media data in AWS RDS and generates summary reports for business intelligence.",
+      "skills": ["Java", "Springboot", "S3", "RDS"],
+      "details": ["A highly scalable service that processes mobile media data for multiple customers.", "Provide customized reports based on business needs.", "24/7 monitoring with real-time alerts and KPI tracking."]
+    }
+  ]
