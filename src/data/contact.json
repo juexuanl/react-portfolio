@@ -12,6 +12,13 @@
         "display": "linkedin.com/in/juexuanl",
         "imageSrc": "contact/linkedinIcon.png",
         "imageDesc": "LinkedIn Incon"
+    },
+    {
+        "title": "GitHub",
+        "link":"https://github.com/juexuanl",
+        "display": "github.com/juexuanl",
+        "imageSrc": "contact/githubIcon.png",
+        "imageDesc": "GitHub Incon"
     }
 
 ]
