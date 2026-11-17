@@ -76,6 +76,7 @@
 .heroImg {
   width: clamp(8rem, 24vw, 17rem);
   height: auto;
+  border-radius: 1rem;
   flex-shrink: 0;
   animation: floating 3s ease-in-out infinite;
 }

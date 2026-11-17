@@ -17,8 +17,10 @@ const Hero = () => {
         </div>
       </div>
       <img
-        src={getImageUrl('hero/heroImage.png')}
+        src={getImageUrl('hero/zoey-portrait.jpg')}
         alt=""
+        width={680}
+        height={850}
         className={styles.heroImg}
       />
       <div className={styles.topBlur} />
