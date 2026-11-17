@@ -1,20 +1,17 @@
 [
-    {
-        "title": "Backend Developer",
-        "description": "I have broader experience in developing backend services and RESTful APIs. Good cross-team communicator, complex problem-solver with proven troubleshooting and debugging capabilities for resolving complex technical issues.",
-        "imageSrc": "about/serverIcon.png",
-        "imageDesc": "Server icon"
-    },
-    {
-        "title": "Frontend Developer",
-        "description": "Self-taught frontend development using React and JavaScript with plans to learn TypeScript as well. Always open and enthusiastic about learning new skills.",
-        "imageSrc": "about/uiIcon.png",
-        "imageDesc": "UI icon"
-    },
-    {
-        "title": "Data Analyst",
-        "description": "I have extensive experience on both relational databases and NoSQL databasae.",
-        "imageSrc": "about/cursorIcon.png",
-        "imageDesc": "Cursor icon"
-    }
+  {
+    "title": "Backend Engineering",
+    "description": "I build REST APIs and backend services, with experience writing integration tests, automating deployments, and troubleshooting production issues.",
+    "imageSrc": "about/serverIcon.png"
+  },
+  {
+    "title": "Data Platforms & Integration",
+    "description": "My work includes data pipelines, integrations across systems, and services backed by relational and NoSQL databases.",
+    "imageSrc": "about/uiIcon.png"
+  },
+  {
+    "title": "Analytics Background",
+    "description": "I started out in data analysis, building reports and working on risk prediction. That experience shapes how I think about the people who rely on the data my services produce.",
+    "imageSrc": "about/cursorIcon.png"
+  }
 ]

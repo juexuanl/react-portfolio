@@ -1,26 +1,46 @@
 @import "../../vars.css";
 
 .container {
-  margin-top: 76px;
-  color: var(--color-text);
-  margin-left: 10%;
-  margin-right: 10%;
+  position: relative;
+  width: var(--page-width);
+  margin: var(--section-gap) auto 0;
 }
 
 .title {
-  font-size: 35px;
+  font-size: clamp(1.625rem, 4vw, 2.1875rem);
   font-weight: 700;
-  letter-spacing: 1.75px;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
 }
 
-.projects {
-  margin-top: 37px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 15px;
-  width: 100%;
+.group {
+  margin-top: 1.5rem;
+}
+
+.group + .group {
+  margin-top: 2.25rem;
+}
+
+.groupTitle {
+  margin-bottom: 0.85rem;
+  font-size: clamp(1.2rem, 2.6vw, 1.5rem);
+}
+
+.projects,
+.lendingProjects {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: start;
+  gap: clamp(1rem, 3vw, 1.5rem);
+}
+
+.lendingProjects {
+  align-items: stretch;
+}
+
+@media (max-width: 700px) {
+  .projects,
+  .lendingProjects {
+    grid-template-columns: 1fr;
+  }
 }

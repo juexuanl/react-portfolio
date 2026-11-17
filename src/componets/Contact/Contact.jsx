@@ -1,31 +1,28 @@
-import React from 'react'
-import { getImageUrl } from '../../utils'
-import contacts from "../../data/contact.json"
-import styles from "./Contact.module.css"
+import { getImageUrl } from '../../utils';
+import contacts from '../../data/contact.json';
+import styles from './Contact.module.css';
 
 const Contact = () => {
   return (
-    <footer id='contact' className= {styles.container}>
-        <div className= {styles.text}>
-            <h2>
-                Contact
-            </h2>
-            <p>Feel free to reach out!</p>
+    <footer id="contact" className={styles.container} aria-labelledby="contact-title">
+      <div className={styles.content}>
+        <div>
+          <h2 id="contact-title">Contact</h2>
+          <p>Let’s talk about backend engineering, data platforms, or potential opportunities.</p>
         </div>
-        <ul className= {styles.links}>
-            {
-                contacts.map((contact, id) => {
-                    return (
-                        <li key={id} className= {styles.link}>
-                            <img src={getImageUrl(contact.imageSrc)} alt= {contact.imageDesc} />
-                            <a href={contact.title === 'Email' ? `mailto: ${contact.link}` : contact.link}>{contact.display}</a>
-                        </li>
-                    )
-                })
-            }
+        <ul className={styles.links}>
+          {contacts.map(({ title, link, imageSrc }) => (
+            <li key={title}>
+              <a href={title === 'Email' ? `mailto:${link}` : link}>
+                <img src={getImageUrl(imageSrc)} alt="" loading="lazy" />
+                {title}
+              </a>
+            </li>
+          ))}
         </ul>
+      </div>
     </footer>
-  )
-}
+  );
+};
 
-export default Contact
+export default Contact;

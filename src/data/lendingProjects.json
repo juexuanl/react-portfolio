@@ -1,0 +1,41 @@
+[
+  {
+    "title": "Amazon Embedded Lending",
+    "year": "2025",
+    "description": "Helped bring QuickBooks Lending to Amazon Marketplace sellers. I owned referral validation and the partner service that synchronized loan application status with Amazon.",
+    "skills": ["Java", "Spring Boot", "Apache Kafka"],
+    "details": [
+      "Reused the existing application flow and Kafka infrastructure to launch the first phase on schedule.",
+      "Built logic that compared Intuit’s application snapshot with Amazon’s current status and sent missing transitions in order.",
+      "Used idempotent updates and retry handling so failed updates could be replayed without repeating completed steps."
+    ]
+  },
+  {
+    "title": "TurboTax Flex Advance",
+    "year": "2025",
+    "endYear": "2026",
+    "description": "Owned the payment configuration for a consumer lending product in TurboTax. I adapted an existing vendor integration to support interest-only repayments followed by a final balloon payment.",
+    "skills": ["Payment Integration", "Karate", "Integration Testing"],
+    "details": [
+      "Worked with the payment vendor to define product-specific settings within the existing repayment workflow.",
+      "Built temporary test APIs and scenario-based test data to validate repayment flows while upstream dependencies were still being tested.",
+      "Fixed a product-specific repayment retry rule before production and used Karate regression tests to verify existing products retained their retry behavior."
+    ]
+  },
+  {
+    "title": "Camunda Workflow Engine Upgrade",
+    "year": "2026",
+    "description": "Contributed to a Camunda workflow engine upgrade that included migrating existing workflow data from MySQL to PostgreSQL.",
+    "skills": ["Camunda", "MySQL", "PostgreSQL"]
+  },
+  {
+    "title": "Integration Test Authentication Migration",
+    "year": "2025",
+    "description": "Migrated the Lending Platform’s integration tests from username-based authentication and authorization to bot-based access before the legacy API was retired.",
+    "skills": ["Karate", "Test Automation"],
+    "details": [
+      "Owned the migration and delivered it one week ahead of the retirement deadline.",
+      "Documented the new setup so other engineers could configure it independently."
+    ]
+  }
+]

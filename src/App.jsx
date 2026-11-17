@@ -7,16 +7,18 @@ import Projects from './componets/Projects/Projects';
 import Contact from './componets/Contact/Contact';
 
 function App() {
-
-return <div className={styles.App}>
-  <Navbar />
-  <Hero />
-  <About />
-  <Experience />
-  <Projects />
-  <Contact />
-</div>
-  
+  return (
+    <div className={styles.App} id="top">
+      <Navbar />
+      <main>
+        <Hero />
+        <Projects />
+        <Experience />
+        <About />
+      </main>
+      <Contact />
+    </div>
+  );
 }
 
-export default App
+export default App;

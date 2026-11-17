@@ -1,29 +1,47 @@
 [
-    {
-      "role": "Software Engineer",
-      "organisation": "Intuit",
-      "startDate": "Jun, 2022",
-      "endDate": "Apr, 2024",
-      "experiences": ["Worked on Data Exchange Platform and RESTful APIs", "Writing unit and integration tests.", "Automate service deployment."],
-      "imageSrc": "history/intuit.png"
-    },
-    {
-      "role": "Senior Software Engineer",
-      "organisation": "Cheetah Software (Mercurygate)",
-      "startDate": "Jan, 2017",
-      "endDate": "Jun, 2022",
-      "experiences": ["Worked Routing solution optimization", "Workflow integration"],
-      "imageSrc": "history/cheetah.png"
-    },
-    {
-      "role": "Data Analyst",
-      "organisation": "AIDS Healthcare Foundation",
-      "startDate": "Oct, 2014",
-      "endDate": "Dec, 2016",
-      "experiences": [
-        "Risk Score analysis and prediction",
-        "Create business intelligent reports"
-      ],
-      "imageSrc": "history/ahf.png"
-    }
-  ]
+  {
+    "role": "Software Engineer III (Contractor)",
+    "organisation": "Intuit",
+    "team": "Lending Platform",
+    "startDate": "Mar 2025",
+    "endDate": "Jun 2026",
+    "experiences": [
+      "Built Java and Spring Boot services and REST APIs for lending workflows.",
+      "Built Kafka integrations that synchronized loan application status with external marketplace partners.",
+      "Contributed to a Camunda upgrade and migrated integration tests to bot-based authentication."
+    ],
+    "imageSrc": "history/intuit.png"
+  },
+  {
+    "role": "Software Engineer II",
+    "organisation": "Intuit",
+    "team": "Data Exchange",
+    "startDate": "Jun 2022",
+    "endDate": "Apr 2024",
+    "experiences": [
+      "Contributed to a data exchange platform and developed REST APIs for data integration.",
+      "Wrote unit and integration tests and automated service deployments."
+    ],
+    "imageSrc": "history/intuit.png"
+  },
+  {
+    "role": "Senior Software Engineer",
+    "organisation": "Cheetah Software (Mercurygate)",
+    "startDate": "Jan 2017",
+    "endDate": "Jun 2022",
+    "experiences": [
+      "Worked on routing optimization and workflow integrations."
+    ],
+    "imageSrc": "history/cheetah.png"
+  },
+  {
+    "role": "Data Analyst",
+    "organisation": "AIDS Healthcare Foundation",
+    "startDate": "Oct 2014",
+    "endDate": "Dec 2016",
+    "experiences": [
+      "Analyzed and predicted risk scores and built business intelligence reports."
+    ],
+    "imageSrc": "history/ahf.png"
+  }
+]

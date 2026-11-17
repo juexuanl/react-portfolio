@@ -1,42 +1,49 @@
-import React, {useState} from 'react'
-import styles from "./Navbar.module.css"
-import { getImageUrl } from '../../utils'
+import { useState } from 'react';
+import styles from './Navbar.module.css';
+import { getImageUrl } from '../../utils';
+
+const links = [
+  { id: 'projects', label: 'Projects' },
+  { id: 'experience', label: 'Experience' },
+  { id: 'about', label: 'About' },
+  { id: 'contact', label: 'Contact' },
+];
 
 const Navbar = () => {
-    const [menuOpen, setMenuOpen] = useState(false)
-  return (
-    <nav className={styles.navbar}>
-        <a className={styles.title} href='/'>
-        Portfolio
-        </a>
-        <div className={styles.menu}>
-            <img 
-                className={styles.menuBtn} 
-                src={menuOpen 
-                    ? getImageUrl("nav/closeIcon.png")
-                    : getImageUrl("nav/menuIcon.png")
-                } 
-                alt="menu-button"
-                onClick={() => setMenuOpen(!menuOpen)}
-            />
-            <ul className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`} 
-            onClick={()=> setMenuOpen(false)}>
-                <li>
-                    <a href='#about'>About</a>
-                </li>
-                <li>
-                    <a href='#experience'>Experience</a>
-                </li>
-                <li>
-                    <a href='#projects'>Projects</a>
-                </li>
-                <li>
-                    <a href='#contact'>Contact</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-  )
-}
+  const [menuOpen, setMenuOpen] = useState(false);
 
-export default Navbar
+  return (
+    <nav className={styles.navbar} aria-label="Main navigation">
+      <a className={styles.title} href="#top" onClick={() => setMenuOpen(false)}>
+        Zoey Long
+      </a>
+      <div className={styles.menu}>
+        <button
+          type="button"
+          className={styles.menuBtn}
+          aria-label="Menu"
+          aria-expanded={menuOpen}
+          aria-controls="navigation-links"
+          onClick={() => setMenuOpen(!menuOpen)}
+        >
+          <img
+            src={getImageUrl(menuOpen ? 'nav/closeIcon.png' : 'nav/menuIcon.png')}
+            alt=""
+          />
+        </button>
+        <ul
+          id="navigation-links"
+          className={menuOpen ? `${styles.menuItems} ${styles.menuOpen}` : styles.menuItems}
+        >
+          {links.map(({ id, label }) => (
+            <li key={id}>
+              <a href={`#${id}`} onClick={() => setMenuOpen(false)}>{label}</a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </nav>
+  );
+};
+
+export default Navbar;
